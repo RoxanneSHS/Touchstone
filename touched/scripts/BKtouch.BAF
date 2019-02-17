@@ -1,0 +1,57 @@
+IF
+  See(Player1)
+  Global("BKtouchJoined","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BKtouchJoined","LOCALS",1)
+    Dialog(Player1)
+END
+
+IF
+  See(Player1)
+  Global("BKtouchJammerSeen","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BKtouchJammerSeen","GLOBAL",1)
+    Dialog(Player1)
+END
+
+IF
+InParty(Myself)
+Global("BKtouchconvo","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("BKtouchconvo","LOCALS",1)
+RealSetGlobalTimer("BKtouchtimer1","LOCALS",2000)
+END
+
+IF
+InParty(Myself)
+CombatCounter(0)
+RealGlobalTimerExpired("BKtouchtimer1","LOCALS")
+Global("BKtouchconvo","LOCALS",1)
+See(Player1)
+THEN
+RESPONSE #100
+SetGlobal("BKtouchconvo","LOCALS",2)
+Interact(Player1)
+END
+
+IF
+Global("BKtouchnopay","GLOBAL",3)
+THEN
+RESPONSE #100
+      StartCutSceneMode()
+      StartCutScene("BKtoumov")
+END
+
+IF
+  See(Player1)
+  Global("BKtouchJoined","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BKmoontouch","GLOBAL",3)
+    SetGlobal("BKbuytouch","GLOBAL",2)
+    GiveItemCreate("BKmoonx","BKtouchx",1,0,0)
+    DisplayStringHead(Myself,@0)
+END

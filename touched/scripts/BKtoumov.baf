@@ -1,0 +1,29 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		MoveToPoint([1512.1354])
+		ActionOverride(Player2,MoveToPoint([1450.1352]))
+		ActionOverride(Player3,MoveToPoint([1473.1294]))
+		ActionOverride(Player4,MoveToPoint([1416.1313]))
+		ActionOverride(Player5,MoveToPoint([1443.1254]))
+		ActionOverride(Player6,MoveToPoint([1391.1271]))
+		FadeToColor([20.0],0)
+		ActionOverride(Player2,LeaveAreaLUA("AR2200","",[4430.930],14))
+		ActionOverride(Player3,LeaveAreaLUA("AR2200","",[4430.940],14))
+		ActionOverride(Player4,LeaveAreaLUA("AR2200","",[4440.930],14))
+		ActionOverride(Player5,LeaveAreaLUA("AR2200","",[4450.930],14))
+		ActionOverride(Player6,LeaveAreaLUA("AR2200","",[4430.950],14))
+		Wait(1)
+		LeaveAreaLUA("AR2200","",[4600.1100],14)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride("BKtouchx",MoveToPoint([4640.1080]))
+		SetGlobal("BKtouchnopay","GLOBAL",4)
+		Wait(1)
+		ActionOverride("DADROW18",StartDialogueNoSet(Player1))
+		EndCutSceneMode()
+END
+

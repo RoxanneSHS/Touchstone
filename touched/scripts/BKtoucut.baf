@@ -1,0 +1,24 @@
+IF
+      True()
+THEN
+RESPONSE #100
+      CutSceneId("BKtouchx")
+      ActionOverride("DADROW18",DisplayStringHead(Myself,@0))
+      Wait(1)
+      MoveViewPoint([4800.1110],INSTANT)
+      MoveToPoint([4800.1110])
+      FadeToColor([20.0],0)
+      Wait(2)
+      GiveItemCreate("BKmoonx","BKtouchx",1,1,0)
+      PlaySound("BKMoonX")
+      Textscreen("BKtouchS")
+      FadeFromColor([20.0],0)
+      Wait(2)
+      Face(6)
+      DisplayStringHead(Myself,@1)
+      AddexperienceParty(10000)
+      SetGlobal("BKmoontouch","GLOBAL",2)
+      SetGlobal("BKbuytouch","GLOBAL",2)
+      EndCutSceneMode()
+      StartDialogNoSet(Player1)
+END

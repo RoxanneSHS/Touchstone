@@ -1,0 +1,10 @@
+IF
+  Global("BKtouchExists","AR0300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BKtouchExists","AR0300",1)
+    CreateCreature("BKtouch1",[2345.495],4)
+    Continue()
+END
+
+

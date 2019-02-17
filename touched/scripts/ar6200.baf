@@ -1,0 +1,15 @@
+IF
+    Global("StartEndBios","AR6200",1)
+    InParty("BKtouchx")
+    Global("BKtouchxBio","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("BKtouchxBio","GLOBAL",1)
+        TextScreen("BKTOUCH1")
+        SetGlobal("BKtouchxBio","GLOBAL",1)
+        SmallWait(1)
+        SetGlobal("BKtouchxBio","GLOBAL",1)
+        Continue()
+        SetGlobal("BKtouchxBio","GLOBAL",1)
+END
+
