@@ -73,11 +73,6 @@ With Touchstone's success you can now turn your thoughts to Irenicus and the pur
 
 @66   = ~I missing out on plenty good wedding night to be here you know!~ [BKTOU47]
 
-
-
-
-
-
 @73   = ~Touchstone frowns at you when you ask him about his past. Having recnetly been summoned from his home on his wedding day, he is not at all happy! You have interrupted his wedding nuptials and his only interest is getting back to Soapstone for the remainder of his marriage night! He states that you should get on with what ever you are trying to do so he can get back to his "wedding hut" as soon as he can!~
 @74   = ~You look like you in big hurry?~
 @75   = ~Now we all be friends!~
@@ -126,3 +121,31 @@ With Touchstone's success you can now turn your thoughts to Irenicus and the pur
 @118  = ~Back to wedding hut? Right away!~
 @119  = ~I missing out on plenty good wedding night to be here you know!~
 @120  = ~Someone do a spell!~
+
+@130  =~Wild Elf Fighter~
+@131  =~WILD ELF FIGHTER: Wild Elves are a hardier breed of Elf that live in tribes of roughly 30 to 100 people. More tribal and nomadic than High Elves, Wild Elves maintain Elven elegance and grace despite a simple wardrobe of leather, furs, and simple weaves.
+
+Hardened by their surroundings yet appreciative of life, Wild Elves live by the motto: "Live as if you will die tomorrow. Fight as if you will live forever." 
+
+Wild Elves are generous to those they view as good and merciless to those they view as evil.
+ 
+ Advantages:
+ 
+- Missile weapon bonus (+1 bonus to hit and damage for every 5 levels)
+
+- Called Shot once per day for every 7 levels (lasts 10 seconds, hits induce: 4th level -1 THAC0 of target, 8th level -1 Save vs. Magic of target, 12th level -1 Strength of target, 16th level +2 damage bonus)
+
+- Can use Berserker Rage once per day for every 6 levels (While raged: +2 bonus to hit and damage, -2 AC bonus, Immune to: Charm, Hold, Fear, Maze, Imprisonment, Stun, and Sleep, temporary 15 HP increase [taken away at end of rage - could cause death])
+ 
+ Disadvantages:
+
+- Cannot use shields
+
+- Cannot wear better studded leather armour.
+
+- Proficiency Restrictions: 
+      Grand Mastery (+++++) allowed in Bows, Axe, Dagger and Darts.
+      High Mastery (++++) allowed in Spear and Shortsword.
+      Mastery (+++) allowed in Longsword, Club, Quarterstaff and Sling.
+      Specialisation (++) allowed in Bastardsword.
+      Proficient (+) in all other weapons.~
