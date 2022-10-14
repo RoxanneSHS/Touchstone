@@ -55,3 +55,14 @@ THEN
     GiveItemCreate("BKmoonx","BKtouchx",1,0,0)
     DisplayStringHead(Myself,@0)
 END
+
+IF
+GlobalGT("BeginChallenge1","GLOBAL",0)
+!AreaCheck("ar4500")
+OR(2)
+!InParty(Myself)
+Global("BKtouchxsummon","GLOBAL",1)
+THEN
+RESPONSE #100
+DestroySelf()
+END
