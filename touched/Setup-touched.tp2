@@ -18,6 +18,7 @@ END
 
 AUTO_TRA ~touched/%s~
 LANGUAGE ~English~ ~English~ ~touched/English/Setup-touched.tra~
+LANGUAGE ~Schinese~ ~schinese~ ~touched/Schinese/Setup-touched.tra~
 
 BEGIN @0
 
